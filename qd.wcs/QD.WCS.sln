@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{04D91262-6CFA-4EB8-95C5-F0C14A8C9F7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{8477D112-2004-4D1E-9B50-DFAE126D17FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QD.WCS", "QD.WCS\QD.WCS\QD.WCS.csproj", "{84A03E67-08EA-47E4-BBB3-9B71C04A04A2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3EDC04E6-A25E-4699-A10E-910DB6AE5378} = {3EDC04E6-A25E-4699-A10E-910DB6AE5378}
+		{FA6771FF-4A1D-4A7A-870B-A783405223C1} = {FA6771FF-4A1D-4A7A-870B-A783405223C1}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QD.WCS.Core", "QD.WCS\QD.WCS.Core\QD.WCS.Core.csproj", "{27B34640-E6CE-4568-8EFC-2AAF048BB18D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QD.WCS.Modules.Home", "QD.WCS\Modules\QD.WCS.Modules.Home\QD.WCS.Modules.Home.csproj", "{FCFB9141-E2A5-4107-9F88-CC73D78B846B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{14DEBB65-8C2A-4478-A745-C1608CE6D41A} = {14DEBB65-8C2A-4478-A745-C1608CE6D41A}
+		{5A6F9168-8EE8-4318-9CA9-F00E09EDE4A5} = {5A6F9168-8EE8-4318-9CA9-F00E09EDE4A5}
+		{FA6771FF-4A1D-4A7A-870B-A783405223C1} = {FA6771FF-4A1D-4A7A-870B-A783405223C1}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QD.WCS.Uc", "QD.WCS\QD.WCS.Uc\QD.WCS.Uc.csproj", "{3EDC04E6-A25E-4699-A10E-910DB6AE5378}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QD.WCS.Modules.Public", "QD.WCS\Modules\QD.WCS.Modules.Public\QD.WCS.Modules.Public.csproj", "{E4F2C181-8217-4AEC-8031-11CB8B766DEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QD.WCS.Services.Interfaces", "QD.WCS\Services\QD.WCS.Services.Interfaces\QD.WCS.Services.Interfaces.csproj", "{5A6F9168-8EE8-4318-9CA9-F00E09EDE4A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QD.WCS.Services", "QD.WCS\Services\QD.WCS.Services\QD.WCS.Services.csproj", "{14DEBB65-8C2A-4478-A745-C1608CE6D41A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QD.WCS.HardWare", "QD.WCS\QD.WCS.HardWare\QD.WCS.HardWare.csproj", "{FA6771FF-4A1D-4A7A-870B-A783405223C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1641498C-0141-4A28-ACB5-24395586E114}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84A03E67-08EA-47E4-BBB3-9B71C04A04A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A03E67-08EA-47E4-BBB3-9B71C04A04A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A03E67-08EA-47E4-BBB3-9B71C04A04A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A03E67-08EA-47E4-BBB3-9B71C04A04A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27B34640-E6CE-4568-8EFC-2AAF048BB18D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27B34640-E6CE-4568-8EFC-2AAF048BB18D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27B34640-E6CE-4568-8EFC-2AAF048BB18D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27B34640-E6CE-4568-8EFC-2AAF048BB18D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCFB9141-E2A5-4107-9F88-CC73D78B846B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCFB9141-E2A5-4107-9F88-CC73D78B846B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCFB9141-E2A5-4107-9F88-CC73D78B846B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCFB9141-E2A5-4107-9F88-CC73D78B846B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EDC04E6-A25E-4699-A10E-910DB6AE5378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EDC04E6-A25E-4699-A10E-910DB6AE5378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EDC04E6-A25E-4699-A10E-910DB6AE5378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EDC04E6-A25E-4699-A10E-910DB6AE5378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4F2C181-8217-4AEC-8031-11CB8B766DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F2C181-8217-4AEC-8031-11CB8B766DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F2C181-8217-4AEC-8031-11CB8B766DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F2C181-8217-4AEC-8031-11CB8B766DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A6F9168-8EE8-4318-9CA9-F00E09EDE4A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A6F9168-8EE8-4318-9CA9-F00E09EDE4A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A6F9168-8EE8-4318-9CA9-F00E09EDE4A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A6F9168-8EE8-4318-9CA9-F00E09EDE4A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14DEBB65-8C2A-4478-A745-C1608CE6D41A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14DEBB65-8C2A-4478-A745-C1608CE6D41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14DEBB65-8C2A-4478-A745-C1608CE6D41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14DEBB65-8C2A-4478-A745-C1608CE6D41A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA6771FF-4A1D-4A7A-870B-A783405223C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA6771FF-4A1D-4A7A-870B-A783405223C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA6771FF-4A1D-4A7A-870B-A783405223C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA6771FF-4A1D-4A7A-870B-A783405223C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FCFB9141-E2A5-4107-9F88-CC73D78B846B} = {04D91262-6CFA-4EB8-95C5-F0C14A8C9F7E}
+		{E4F2C181-8217-4AEC-8031-11CB8B766DEA} = {04D91262-6CFA-4EB8-95C5-F0C14A8C9F7E}
+		{5A6F9168-8EE8-4318-9CA9-F00E09EDE4A5} = {8477D112-2004-4D1E-9B50-DFAE126D17FB}
+		{14DEBB65-8C2A-4478-A745-C1608CE6D41A} = {8477D112-2004-4D1E-9B50-DFAE126D17FB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B08DB2D-5EDD-44DA-86B7-A2DFC13DF452}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# RF001: Refit types must have Refit HTTP method attributes
+dotnet_diagnostic.RF001.severity = silent
